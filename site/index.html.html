@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" , intial-scale=1.0>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d335c9b428.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="logo-verde-vazado.ico">
+    <title>Recicla Pra Mim</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="nav-container">
+                    <a href="index.html">
+                        <img id="logo" src="logo-verde-vazado.ico" alt="Reciclagem eletrônica">
+                    </a>
+                    <i class="fas fa-bars btn-menumobile"></i>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href='#'>Encontrar local de reciclagem</a></li>
+                        <li><a href="#">Sobre nós</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="main-banner">
+                <div id="search-form">
+                    <h1 class="title">A maneira mais fácil</h1>
+                    <p class="subtitle">Conecte-se de forma gratuita aos centros de reciclagem da sua cidade e faça a sua parte para o meio ambiente.</p>
+                    <form>
+                        <select name="Region">
+                            <option value="">Todos os bairros</option>
+                        </select>
+                        <select name="category" class="ops">
+                            <option value="0">Tipo de lixo</option>
+                            <option value="1">Eletrônico</option>
+                        </select>
+                        <input type="submit" value="Pesquisar">
+                    </form>
+                </div>
+            </div>
+        </header>
+        <main id="lastjobs-container" class="wrapper">
+            <h1>Encontre centros de reciclagem</h1>
+            <ul>
+                <li>
+                    <a href="#" class="clickarea">
+                        <div class="state">
+                            <img src="Sp.png">
+                            <div class="state-info">
+                                <h3>Estado</h3>
+                                <p>São Paulo</p>
+                            </div>
+                        </div>
+                        <div class="city">
+                            <p>São Paulo</p>
+                        </div>
+                        <div class="locality">
+                            <span class="clt">Centro de reciclagem</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="clickarea">
+                        <div class="state">
+                            <img src="Rj.png">
+                            <div class="state-info">
+                                <h3>Estado</h3>
+                                <p>Rio de Janeiro</p>
+                            </div>
+                        </div>
+                        <div class="city">
+                            <p>Rio de Janeiro</p>
+                        </div>
+                        <div class="locality">
+                            <span class="pj">Centro de reciclagem</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="clickarea">
+                        <div class="state">
+                            <img src="Ce.png">
+                            <div class="state-info">
+                                <h3>Estado</h3>
+                                <p>Ceará</p>
+                            </div>
+                        </div>
+                        <div class="city">
+                            <p>Fortaleza</p>
+                        </div>
+                        <div class="locality">
+                            <span class="home">Centro de reciclagem</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="clickarea">
+                        <div class="state">
+                            <img src="Ba.png">
+                            <div class="state-info">
+                                <h3>Estado</h3>
+                                <p>Bahia</p>
+                            </div>
+                        </div>
+                        <div class="city">
+                            <p>Salvador</p>
+                        </div>
+                        <div class="locality">
+                            <span class="pj">Centro de reciclagem</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div class="btnjobs-container">
+                <a href="#" class="btn-jobs">Ver mais locais</a>
+            </div>
+        </main>
+        <section id="sendjobs-container">
+            <div id="sendjobs-inner" class="wrapper">
+                <h2>Cadastre o seu local de reciclagem e ele será visto por milhares de pessoas</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas diam a ornare bibendum. Sed luctus finibus sapien ut sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ante neque. Donec posuere facilisis
+                    massa, quis consequat neque viverra vitae. Nam mauris eros, ullamcorper eget erat euismod, laoreet posuere lectus. Nulla facilisi. Vestibulum venenatis pretium risus, nec porta ipsum auctor eget. Mauris euismod rhoncus massa.</p>
+                <a href="#" class="light-btn">Cadastrar local</a>
+            </div>
+        </section>
+        <section id="status-container" class="wrapper">
+            <h2 class="title-center">Estatísticas do ReciclaPraMim</h2>
+            <p class="p-center">Donec urna libero, luctus sit amet sem ut, posuere tincidunt tellus. Etiam tempor non ante vitae egestas. Etiam nec ante maximus, lacinia nibh nec, tincidunt ipsum. Sed at eleifend sapien. Curabitur sagittis, nunc suscipit luctus posuere,
+                ante justo lacinia lacus, sed vestibulum ex diam id ex. Mauris venenatis, sapien nec interdum posuere, lectus massa blandit ipsum, sed sodales sapien metus a arcu. Fusce pretium aliquet dignissim.</p>
+            <div>
+                <div class="status-box">
+                    <span class="status-qtd">000</span>
+                    <p class="status-text">Locais abertos</p>
+                </div>
+                <div class="status-box">
+                    <span class="status-qtd">000</span>
+                    <p class="status-text">Estados registrados</p>
+                </div>
+                <div class="status-box">
+                    <span class="status-qtd">000</span>
+                    <p class="status-text">Cidades registradas</p>
+                </div>
+                <div class="status-box">
+                    <span class="status-qtd">000</span>
+                    <p class="status-text">Locais registrados</p>
+                </div>
+            </div>
+        </section>
+        <section id="testmony-container">
+            <div class="wrapper">
+                <h2>Veja o que os usuários do ReciclaPraMim dizem</h2>
+                <p class="p-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas diam a ornare bibendum. Sed luctus finibus sapien ut sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ante neque. Donec posuere facilisis
+                    massa, quis consequat neque viverra vitae. Nam mauris eros, ullamcorper eget erat euismod, laoreet posuere lectus. Nulla facilisi. Vestibulum venenatis pretium risus, nec porta ipsum auctor eget. Mauris euismod rhoncus massa.</p>
+                <div class="testmony-box">
+                    <p class="testmony-msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="testmony-name">Pedro</p>
+                </div>
+                <div class="testmony-box">
+                    <p class="testmony-msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="testmony-name">Maria</p>
+                </div>
+                <div class="testmony-box">
+                    <p class="testmony-msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="testmony-name">Daniel</p>
+                </div>
+                <div class="testmony-box">
+                    <p class="testmony-msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="testmony-name">Isabel</p>
+                </div>
+            </div>
+        </section>
+        <section id="blog-container" class="wrapper">
+            <h2 class="title-center">Artigos do ReciclaPraMim</h2>
+            <p class="p-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas diam a ornare bibendum. Sed luctus finibus sapien ut sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ante neque. Donec posuere facilisis
+                massa, quis consequat neque viverra vitae. Nam mauris eros, ullamcorper eget erat euismod, laoreet posuere lectus. Nulla facilisi. Vestibulum venenatis pretium risus, nec porta ipsum auctor eget. Mauris euismod rhoncus massa</p>
+            <div class="article-box">
+                <img src="Sem.jpg">
+                <h4><a href="#">Título do artigo</a></h4>
+                <p class="article-date">DD de MM de AA | ()Comentários</p>
+                <p class="article-resume">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="article-btn light-btn">Ler artigo completo</a>
+            </div>
+            <div class="article-box">
+                <img src="Sem.jpg">
+                <h4><a href="#">Título do artigo</a></h4>
+                <p class="article-date">DD de MM de AA | ()Comentários</p>
+                <p class="article-resume">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="article-btn light-btn">Ler artigo completo</a>
+            </div>
+            <div class="article-box">
+                <img src="Sem.jpg">
+                <h4><a href="#">Título do artigo</a></h4>
+                <p class="article-date">DD de MM de AA | ()Comentários</p>
+                <p class="article-resume">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="article-btn light-btn">Ler artigo completo</a>
+            </div>
+        </section>
+        <footer>
+            <div class="wrapper">
+                <div class="footer-box">
+                    <div class="company-footer">
+                        <img src="logo-branco-vazado(1).png">
+                        <h2>ReciclaPraMim</h2>
+                        <p>A maneira mais consciente de descartar lixo eletrônico.</p>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <div class="articles-footer">
+                        <h2>Artigos recentes</h2>
+                        <ul class="footer-list footer-article-list">
+                            <li>
+                                <a href="#">Título do artigo</a>
+                                <span class="article-date">DD de MM de AA</span>
+                            </li>
+                            <li>
+                                <a href="#">Título do artigo</a>
+                                <span class="article-date">DD de MM de AA</span>
+                            </li>
+                            <li>
+                                <a href="#">Título do artigo</a>
+                                <span class="article-date">DD de MM de AA</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <h2>Nos encontre nas redes sociais</h2>
+                    <ul class="footer-list">
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-facebook-square"></i>
+                                <span>Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/recicla.pra.mim/">
+                                <i class="fab fa-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-whatsapp"></i>
+                                <span>Whatsapp</span>
+                            </a>
+                            <li>
+                                <a href="https://mailto:reciclapramim@gmail.com?">
+                                    <i class="far fa-envelope"></i>
+                                    <span>Email</span>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="wrapper">
+                    <p>ReciclaPraMim - 2021</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="JavaScript/JavaScript.js"></script>
+</body>
+
+</html>
